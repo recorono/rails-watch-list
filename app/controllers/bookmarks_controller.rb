@@ -1,5 +1,5 @@
 class BookmarksController < ApplicationController
-  def bookmark
-   @bookmark
+  def new
+   @bookmark = Bookmark.new
   end
 end
